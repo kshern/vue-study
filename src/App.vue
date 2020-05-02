@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-<<<<<<< HEAD
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-=======
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -20,33 +16,20 @@
     <!-- <form-example></form-example> -->
     <!-- <NodeTest></NodeTest> -->
     <!-- <tree-test></tree-test> -->
->>>>>>> e386e0991366b2ca1d43723566813dfa55462fa2
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-<<<<<<< HEAD
-=======
 import communication from '@/components/communication';
 import SlotExample from '@/components/slots'
 import FormExample from '@/components/form'
 import TreeTest from '@/components/recursion';
 import NodeTest from '@/components/recursion/NodeTest.vue';
->>>>>>> e386e0991366b2ca1d43723566813dfa55462fa2
 
 export default {
   name: 'app',
   provide() {
-<<<<<<< HEAD
-    return {
-      foo: 'abc'
-    }
-  },
-  components: {
-    HelloWorld
-  }
-=======
     // 隔代传参，用法类似于data
     return {
       bar: 'barrrrrrrrr',
@@ -71,7 +54,6 @@ export default {
       
     }
   },
->>>>>>> e386e0991366b2ca1d43723566813dfa55462fa2
 }
 </script>
 

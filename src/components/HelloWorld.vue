@@ -1,14 +1,4 @@
 <template>
-<<<<<<< HEAD
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <!-- 组件通信 -->
-    <!-- <Communication></Communication> -->
-    <!-- 表单 -->
-    <FormExample></FormExample>
-    <!-- 插槽 -->
-    <!-- <SlotExample></SlotExample> -->
-=======
   <div>
     <!-- store是哪来的，state是响应式的 -->
     <!-- Store类得有commit方法可以执行mutation -->
@@ -28,28 +18,10 @@
     <div>
       <slot name="content" baz="content from child"></slot>
     </div>
->>>>>>> e386e0991366b2ca1d43723566813dfa55462fa2
   </div>
 </template>
 
 <script>
-<<<<<<< HEAD
-import Communication from '@/components/communication';
-import FormExample from '@/components/form';
-import SlotExample from '@/components/slots';
-
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  },
-  components: {
-    Communication,
-    FormExample,
-    SlotExample
-  },
-}
-=======
   export default {
     inject: {
       bar2: 'bar',
@@ -84,7 +56,6 @@ export default {
       }
     },
   }
->>>>>>> e386e0991366b2ca1d43723566813dfa55462fa2
 </script>
 
 <style scoped>

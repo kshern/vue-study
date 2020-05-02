@@ -18,11 +18,7 @@ export default {
     },
     duration: {
       type: Number,
-<<<<<<< HEAD
-      default: 2000
-=======
       default: 1000
->>>>>>> e386e0991366b2ca1d43723566813dfa55462fa2
     }
   },
   data() {
